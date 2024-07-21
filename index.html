@@ -22,7 +22,47 @@
             </div>
         </header>
         <main>
+            <div class="heading-para-container">
+                <div class="heading-paragraph">
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to help you
+                        realize your deepest dreams.
+                    </p>
+                    <p>You <em>know</em> you want to.</p>
+                    <p class="sign-up-para">Sign up <em>now</em> to get started.</p>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="form">
+                    <h2>Let's Do This!</h2>
+                    <form action="https://httpbin.org/post" method="post" id="the-form">
+
+                        <div class="input-section1">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="user-first-name" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="user-email" required>
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" name="user-password" required>
+                        </div>
+
+                        <div class="input-section2">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="user-last-name" required>
+                            <label for="number">Phone Number</label>
+                            <input type="tel" id="number" name="user-phone-number" required>
+                            <label for="pass-confirm">Confirm Password</label>
+                            <input type="password" id="pass-confirm" name="password-confirmation" required>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
             
+            <div class="submission">
+                <button type="submit" form="the-form">Create Account</button>
+                <p>Already have an account? <a href="" class="log-in">Log in</a></p>
+            </div>
         </main>
     </div>
 </body>
