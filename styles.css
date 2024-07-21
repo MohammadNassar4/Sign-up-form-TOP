@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "norse";
+    src: url("./fonts/Norse-Bold.woff2");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    width: 35vw;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: absolute;
+    width: 35vw;
+    top: 20%;
+}
+
+.logo {
+    width: 110px;
+    height: 160px;
+}
+h1 {
+    color: #ffffff;
+    font-family: "norse";
+    font-size: 150px;
+}
+
+.credit {
+    width: 35vw;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.photo-credit {
+    color: #ffffffdc;
+}
+
+a:link {
+    color: #ffffffdc;
+}
+
+a:visited {
+    color: #ffffffdc;
+}
